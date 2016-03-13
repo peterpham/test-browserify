@@ -1,0 +1,21 @@
+{
+  "name": "test-browserify",
+  "version": "1.0.0",
+  "description": "Testing browserify",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-js": "browserify app/src/index.js -o app/dist/bundle.js"
+  },
+  "keywords": [
+    "browserify"
+  ],
+  "author": "Peter Pham",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.6.1"
+  }
+}
